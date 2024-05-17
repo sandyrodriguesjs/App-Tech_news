@@ -1,4 +1,5 @@
 "use client"
+import { useState, useEffect } from "react";
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
@@ -13,6 +14,15 @@ function classNames(...classes) {
 }
 
 const NavBar = () => {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  useEffect(() => {
+    if (isDarkMode) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [isDarkMode]);
   return (
     <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (
@@ -58,10 +68,12 @@ const NavBar = () => {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                {/* Profile dropdown */}
-                <Menu as="div" className="relative ml-3">
-                  <p>Aqui ira ficar o darkmode e pesquisa</p>
-                </Menu>
+                <button
+                  onClick={() => setIsDarkMode(!isDarkMode)}
+                  className="p-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                >
+                  {isDarkMode ? "Light Mode" : "Dark Mode"}
+                </button>
               </div>
             </div>
           </div>
