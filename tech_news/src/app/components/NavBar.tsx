@@ -7,8 +7,8 @@ import MoonIcon from "../icons/MoonIcon";
 import SunIcon from "../icons/SunIcon";
 
 const navigation = [
-  { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
+  { name: 'News', href: '#', current: true },
+  { name: 'About', href: '#', current: false },
 ]
 
 function classNames(...classes) {
