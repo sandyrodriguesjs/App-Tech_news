@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import MoonIcon from "../icons/MoonIcon";
+import SunIcon from "../icons/SunIcon";
 
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
@@ -15,7 +17,7 @@ function classNames(...classes) {
 
 const NavBar = ({ isDarkMode, toggleDarkMode }) => {
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-gray-700">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -61,9 +63,9 @@ const NavBar = ({ isDarkMode, toggleDarkMode }) => {
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <button
                   onClick={toggleDarkMode}
-                  className="p-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                  className="dark:bg-gray-700 dark:rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                 >
-                  {isDarkMode ? "Light Mode" : "Dark Mode"}
+                  {isDarkMode ? <SunIcon /> : <MoonIcon />}
                 </button>
               </div>
             </div>
