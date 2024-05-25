@@ -17,7 +17,7 @@ function classNames(...classes) {
 
 const NavBar = ({ isDarkMode, toggleDarkMode }) => {
   return (
-    <Disclosure as="nav" className="bg-gray-700">
+    <Disclosure as="nav" className="bg-purple-900">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
