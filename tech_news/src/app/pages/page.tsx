@@ -7,7 +7,7 @@ export default function Home() {
       <section className="hero mb-8">
         <div className="flex flex-col md:flex-row md:items-center justify-between">
           <div className="flex-grow">
-            <h1 className="text-3xl font-bold leading-tight mb-3 dark:text-white">Bem Vindo ao Tech News Hub!</h1>
+            <h1 className="text-3xl font-bold font-serif  leading-tight mb-3 dark:text-white">Bem Vindo ao Tech News Hub!</h1>
             <p className="text-lg text-gray-700 dark:text-white">
               Mantenha-se informado sobre os últimos avanços e tendências que moldam o mundo da tecnologia.
             </p>
@@ -21,7 +21,7 @@ export default function Home() {
         <h2 className="text-2xl font-semibold mb-4 dark:text-white">Artigos em Destaque</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {/* Add placeholders or links to actual articles here */}
-          <article className="flex rounded-lg shadow-md overflow-hidden dark:bg-gray-800">
+          <article className="flex rounded-lg shadow-md overflow-hidden bg-gray-100 dark:bg-gray-700">
             <img src="/gemini_AI.avif" alt="Descrição da imagem 1" className="w-1/3 object-cover"/>
             <div className="p-4">
               <h3 className="text-lg font-medium mb-2 dark:text-white">O surgimento das IA's generativas</h3>
@@ -31,7 +31,7 @@ export default function Home() {
               <a href="#" className="text-blue-500 hover:text-blue-700">Saiba Mais</a>
             </div>
           </article>
-          <article className="flex rounded-lg shadow-md overflow-hidden dark:bg-gray-800">
+          <article className="flex rounded-lg shadow-md overflow-hidden bg-gray-100 dark:bg-gray-700">
             <img src="/elon_musk.webp" alt="Descrição da imagem 1" className="w-1/3 object-cover"/>
             <div className="p-4">
               <h3 className="text-lg font-medium mb-2 dark:text-white">Controle das máquinas com a mente</h3>
