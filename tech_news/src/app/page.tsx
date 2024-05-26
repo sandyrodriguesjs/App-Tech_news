@@ -21,8 +21,8 @@ export default function Home() {
         <h2 className="text-2xl font-semibold mb-4 dark:text-white">Artigos em Destaque</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {/* Add placeholders or links to actual articles here */}
-          <article className="flex rounded-lg shadow-md overflow-hidden cursor-pointer hover:transform hover:scale-105 transition-transform duration-300 hover:shadow-lg mx-3 bg-gray-100 dark:bg-gray-700">
-            <img src="/gemini_AI.avif" alt="Descrição da imagem 1" className="w-1/3 object-cover"/>
+          <article className="flex flex-col md:flex-row rounded-lg shadow-md overflow-hidden cursor-pointer hover:transform hover:scale-105 transition-transform duration-300 hover:shadow-lg mx-3 bg-gray-100 dark:bg-gray-700">
+            <img src="/gemini_AI.avif" alt="Descrição da imagem 1" className="w-full md:w-1/3 object-cover"/>
             <div className="p-4">
               <h3 className="text-lg font-medium mb-2 dark:text-white">O surgimento das IA's generativas</h3>
               <p className="text-base text-gray-700 line-clamp-3 dark:text-white">
@@ -31,8 +31,8 @@ export default function Home() {
               <a href="#" className="text-blue-500 hover:text-blue-700">Saiba Mais</a>
             </div>
           </article>
-          <article className="flex rounded-lg shadow-md overflow-hidden cursor-pointer hover:transform hover:scale-105 transition-transform duration-300 hover:shadow-lg bg-gray-100 dark:bg-gray-700">
-            <img src="/elon_musk.webp" alt="Descrição da imagem 1" className="w-1/3 object-cover"/>
+          <article className="flex flex-col md:flex-row rounded-lg shadow-md overflow-hidden cursor-pointer hover:transform hover:scale-105 transition-transform duration-300 hover:shadow-lg bg-gray-100 dark:bg-gray-700">
+            <img src="/elon_musk.webp" alt="Descrição da imagem 1" className="w-full md:w-1/3 object-cover"/>
             <div className="p-4">
               <h3 className="text-lg font-medium mb-2 dark:text-white">Controle das máquinas com a mente</h3>
               <p className="text-base text-gray-700 line-clamp-3 dark:text-white">
@@ -48,8 +48,8 @@ export default function Home() {
         <h2 className="text-2xl font-semibold mb-4 dark:text-white">Últimas Notícias</h2>
         <div className="flex flex-col space-y-4">
           {/* Add placeholders or links to actual news here */}
-          <article className="flex rounded-lg shadow-md overflow-hidden cursor-pointer hover:transform hover:scale-105 transition-transform duration-300 hover:shadow-lg dark:bg-gray-800">
-            <img src="/spotify.avif" alt="Descrição da imagem 1" className="w-1/3 object-cover"/>
+          <article className="flex flex-col md:flex-row rounded-lg shadow-md overflow-hidden cursor-pointer hover:transform hover:scale-105 transition-transform duration-300 hover:shadow-lg dark:bg-gray-800">
+            <img src="/spotify.avif" alt="Descrição da imagem 1" className="w-full md:w-1/3 object-cover"/>
             <div className="p-4">
               <h3 className="text-lg font-medium mb-2 dark:text-white">10 anos do Spotify no Brasil: 5 curiosidades sobre o streaming de música</h3>
               <p className="text-base text-gray-700 line-clamp-3 dark:text-white">
@@ -58,8 +58,8 @@ export default function Home() {
               <a href="#" className="text-blue-500 hover:text-blue-700">Leia Mais</a>
             </div>
           </article>
-          <article className="flex rounded-lg shadow-md overflow-hidden cursor-pointer hover:transform hover:scale-105 transition-transform duration-300 hover:shadow-lg dark:bg-gray-800">
-            <img src="/google_fotos.avif" alt="Descrição da imagem 1" className="w-1/3 object-cover"/>
+          <article className="flex flex-col md:flex-row rounded-lg shadow-md overflow-hidden cursor-pointer hover:transform hover:scale-105 transition-transform duration-300 hover:shadow-lg dark:bg-gray-800">
+            <img src="/google_fotos.avif" alt="Descrição da imagem 1" className="w-full md:w-1/3 object-cover"/>
             <div className="p-4">
               <h3 className="text-lg font-medium mb-2 dark:text-white">Google Fotos: 6 novos recursos de IA que você precisa testar agora no app</h3>
               <p className="text-base text-gray-700 line-clamp-3 dark:text-white">
@@ -68,8 +68,8 @@ export default function Home() {
               <a href="#" className="text-blue-500 hover:text-blue-700 ">Leia Mais</a>
             </div>
           </article>
-          <article className="flex rounded-lg shadow-md overflow-hidden cursor-pointer hover:transform hover:scale-105 transition-transform duration-300 hover:shadow-lg dark:bg-gray-800">
-            <img src="/headset.avif" alt="Descrição da imagem 1" className="w-1/3 object-cover"/>
+          <article className="flex flex-col md:flex-row rounded-lg shadow-md overflow-hidden cursor-pointer hover:transform hover:scale-105 transition-transform duration-300 hover:shadow-lg dark:bg-gray-800">
+            <img src="/headset.avif" alt="Descrição da imagem 1" className="w-full md:w-1/3 object-cover"/>
             <div className="p-4">
               <h3 className="text-lg font-medium mb-2 dark:text-white">Headset gamer Redragon: confira 6 fones bons e baratos para jogar</h3>
               <p className="text-base text-gray-700 line-clamp-3 dark:text-white">
@@ -78,8 +78,8 @@ export default function Home() {
               <a href="#" className="text-blue-500 hover:text-blue-700">Leia Mais</a>
             </div>
           </article>
-          <article className="flex rounded-lg shadow-md overflow-hidden cursor-pointer hover:transform hover:scale-105 transition-transform duration-300 hover:shadow-lg dark:bg-gray-800">
-            <img src="/android_15.avif" alt="Descrição da imagem 1" className="w-1/3 object-cover"/>
+          <article className="flex flex-col md:flex-row rounded-lg shadow-md overflow-hidden cursor-pointer hover:transform hover:scale-105 transition-transform duration-300 hover:shadow-lg dark:bg-gray-800">
+            <img src="/android_15.avif" alt="Descrição da imagem 1" className="w-full md:w-1/3 object-cover"/>
             <div className="p-4">
               <h3 className="text-lg font-medium mb-2 dark:text-white">Android 15 pode aumentar a duração da bateria em até 3 horas; entenda2</h3>
               <p className="text-base text-gray-700 line-clamp-3 dark:text-white">
