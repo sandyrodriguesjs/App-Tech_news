@@ -1,5 +1,5 @@
 # Aplicação Web para manter os usuários atualizados com as últimas notícias sobre tecnologia
-Este repositório contém uma aplicação Web desenvolvida a partir do framework Next Js, Tailwind CSS e biblioteca do React, utilizando como linguagem de programação o Typescript.
+Este repositório contém uma aplicação Web desenvolvida a partir do framework Next Js, Tailwind CSS e biblioteca do React, utilizando como principal linguagem de programação o Typescript.
 
 ## Descrição
 Aplicação Web feita com o intuito de demonstrar minhas habilidades técnicas em desenvolvimento Front End, prezando sempre pelas boas práticas de programação e implementação de designs responsivos e de qualidade para a melhor experiência de usuário possível.
