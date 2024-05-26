@@ -21,8 +21,12 @@ Aplicação Web feita com o intuito de demonstrar minhas habilidades técnicas e
    ```bash
     cd tech_news
     ```
-6. Após isso, digite o seguinte comando no terminal:
+6. Em seguida, instale todas as dependências do seu projeto através do seguinte comando:
+   ```bash
+    npm install
+    ```
+7. Após isso, digite o seguinte comando no terminal:
    ```bash
     npm run dev
     ```
-7. Por fim, acesse o link disponibilizado para acessar a sua aplicação localmente!
+8. Por fim, acesse o link disponibilizado para acessar a sua aplicação localmente!
