@@ -11,7 +11,7 @@ const Footer = () => {
                         <img src="/whatsapp.png" alt="" width="25" />
                     </div>
                     <div className='mx-2 hover:text-blue-500'>
-                        <h2><Link href=''>Watsapp</Link></h2>
+                        <h2><Link href='https://web.whatsapp.com'>Watsapp</Link></h2>
                     </div>
                 </div>
                 <div className='flex items-center mx-4'>
@@ -19,7 +19,7 @@ const Footer = () => {
                         <img src="/email.png" alt="" width="25" />
                     </div>
                     <div className='mx-2 hover:text-blue-500'>
-                    <h2><Link href=''>Email</Link></h2>
+                    <h2><Link href='mailto:mikaelantonio398@gmail.com'>Email</Link></h2>
                     </div>
                 </div>
                 <div className='flex items-center mx-4'>
@@ -27,7 +27,7 @@ const Footer = () => {
                         <img src="/instagram.png" alt="" width="25" />
                     </div>
                     <div className='mx-2 hover:text-blue-500'>
-                        <h2><Link href=''>Instagram</Link></h2>
+                        <h2><Link href='https://www.instagram.com'>Instagram</Link></h2>
                     </div>
                 </div>
             </div>
