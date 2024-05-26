@@ -21,3 +21,8 @@ Aplicação Web feita com o intuito de demonstrar minhas habilidades técnicas e
    ```bash
     cd tech_news
     ```
+6. Após isso, digite o seguinte comando no terminal:
+   ```bash
+    npm run dev
+    ```
+7. Por fim, acesse o link disponibilizado para acessar a sua aplicação localmente!
