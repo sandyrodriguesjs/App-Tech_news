@@ -12,7 +12,7 @@ const navigation = [
   { name: 'About', href: '/about', current: false },
 ]
 
-function classNames(...classes) {
+function classNames(...classes: string[]): string {
   return classes.filter(Boolean).join(' ')
 }
 
