@@ -16,7 +16,12 @@ function classNames(...classes: string[]): string {
   return classes.filter(Boolean).join(' ')
 }
 
-const NavBar = ({ isDarkMode, toggleDarkMode }) => {
+type NavBarProps = {
+  isDarkMode: boolean;
+  toggleDarkMode: () => void;
+};
+
+const NavBar: React.FC<NavBarProps> = ({ isDarkMode, toggleDarkMode }) => {
   return (
     <Disclosure as="nav" className="bg-purple-900">
       {({ open }) => (
